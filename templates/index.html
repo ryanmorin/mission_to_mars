@@ -9,6 +9,16 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
+
+  <!-- RYAN: Added this to make the background of the jombotron a image-->  
+  <style type="text/css">
+  .jumbotron{
+    margin-top: 20px;
+    background-image: url('https://photojournal.jpl.nasa.gov/jpeg/PIA17944.jpg');
+    background-size: cover;
+  }
+  </style>
+
   </head>
   <body>
     <div class="container">
@@ -16,7 +26,8 @@
       <div class="jumbotron text-center">
         <h1>Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
-        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        <!-- RYAN: changed the color of the button-->
+        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button", style="background-color: black; color: white;">Scrape New Data</a></p>
       </div>
 
       <!-- Add section for Mars News -->

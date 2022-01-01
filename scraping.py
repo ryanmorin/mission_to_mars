@@ -5,7 +5,7 @@ import pandas as pd
 import datetime as dt
 from webdriver_manager.chrome import ChromeDriverManager
 import urllib.request
-from Mission_to_Mars_Challenge import rretrieve_img_urls
+from Mission_to_Mars_Challenge import hemisphere_image_urls
 
 
 def scrape_all():
@@ -14,7 +14,6 @@ def scrape_all():
     browser = Browser('chrome', **executable_path, headless=True)
 
     news_title, news_paragraph = mars_news(browser)
-    hemisphere_image_urls = retrieve_img_urls()
 
     # Run all scraping functions and store results in a dictionary
     data = {
@@ -23,7 +22,7 @@ def scrape_all():
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
         "last_modified": dt.datetime.now(),
-        "mars_pictures": hemisphere_image_urls
+        "hemispheres": hemisphere_image_urls
     }
 
     # Stop webdriver and return data
@@ -100,6 +99,9 @@ def mars_facts():
 
     # Convert dataframe into HTML format, add bootstrap
     return df.to_html(classes="table table-striped")
+
+def mars_hemispheres():
+    return hemisphere_image_urls
 
 if __name__ == "__main__":
 
