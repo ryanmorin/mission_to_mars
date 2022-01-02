@@ -43,6 +43,7 @@ I added `col-sm-12` to the div class
 ![mobile](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/mobile_resp.png)
 
 2. Two additional Bootstrap 3 components are used to style the webpage.
+
   a. Change Jumbotron background
   ![background](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/backgnd.png)
   
