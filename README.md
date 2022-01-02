@@ -44,7 +44,7 @@ I added `col-sm-12` to the div class
 
 2. Two additional Bootstrap 3 components are used to style the webpage.
   a. Change Jumbotron background
-  ![background](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/backgrnd.png)
+  ![background](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/backgnd.png)
   
   b. Change button color
-  ![color_btn](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/color_btn.png)
+  ![color_btn](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/chng_btn.png)
