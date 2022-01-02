@@ -39,10 +39,12 @@ Update the Web App with Mars’s Hemisphere Images and Titles
 Update the Web App with Mars’s Hemisphere Images and Titles 
 
 1. The webpage is mobile-responsive.
-![alt text](http://url/to/img.png)
+I added `col-sm-12` to the div class
+![mobile](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/mobile_resp.png)
 
 2. Two additional Bootstrap 3 components are used to style the webpage.
   a. Change Jumbotron background
-  b. Change button color
+  ![background](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/backgrnd.png)
   
-![alt text](http://url/to/img.png) 
+  b. Change button color
+  ![color_btn](https://github.com/ryanmorin/mission_to_mars/blob/main/screen_shots/color_btn.png)
